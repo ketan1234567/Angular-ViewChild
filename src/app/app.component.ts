@@ -2,9 +2,14 @@ import { Component } from '@angular/core';
 
 @Component({
   selector: 'app-root',
-  templateUrl: './app.component.html',
-  styleUrls: ['./app.component.css']
+  template:`<app-number-parent></app-number-parent>
+  
+  <app-stopwatch-parent></app-stopwatch-parent>
+  <app-cpcolor-parent></app-cpcolor-parent>
+  <app-cptheme></app-cptheme>
+  `
 })
 export class AppComponent {
   title = 'Angular-ViewChild';
-}
+
+} 
